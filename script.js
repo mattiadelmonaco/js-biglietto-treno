@@ -35,10 +35,12 @@ console.log (typeof passengerAge, passengerAge);
 // 3. In base alle informazioni precedenti calcola il costo totale del biglietto (0.21 € al km)
 
 const ticketPrice = (0.21 * distance);
-ticketPrice.toFixed(2);
 console.log (typeof ticketPrice, ticketPrice);
 
 //          - Mostra messaggio "🎫 Costo biglietto (0.21 € * n km) 🎟"
+
+alert("🎫 Costo biglietto" + " " + (ticketPrice.toFixed(2)) + "€" + " 🎟")
+
 //      - SE età minore di 18 anni calcola 20% di sconto (-20% su costo totale)
 //          - Mostra messaggio "🎫 Costo biglietto ((0.21 € * n km) -20%) anzichè (0.21 € * n km) 🎟 - sconto MINORENNE applicato!"
 //      - ALTRIMENTI SE età maggiore o uguale a 65 anni calcola 40% di sconto (-40% su costo totale)
