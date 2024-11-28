@@ -19,3 +19,6 @@
 const distance = Number(prompt ("Inserisci i chilometri che vuoi percorrere!"));
 console.log (typeof distance, distance);
 
+// 2.
+const passengerAge = Number(prompt ("Inserisci la tua età!"));
+console.log (typeof passengerAge, passengerAge);
