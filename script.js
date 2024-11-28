@@ -52,9 +52,9 @@ console.log (typeof ticketPriceOver65, Number(ticketPriceOver65.toFixed(2)));
 //      - ALTRIMENTI mostra messaggio "🎫 Costo biglietto (0.21 € * n km) 🎟"
 
 if (passengerAge < 18) { 
-    alert (`${"🎫 Costo biglietto:"} ${ticketPriceUnderage.toFixed(2) + "€ anzichè"} ${ticketPrice + "€"} ${"🎟 - sconto MINORENNE applicato!"}`) 
+    alert (`${"🎫 Costo biglietto:"} ${ticketPriceUnderage.toFixed(2) + "€ anzichè"} ${ticketPrice.toFixed(2) + "€"} ${"🎟 - sconto MINORENNE applicato!"}`) 
 } else if (passengerAge >= 65) { 
-    alert (`${"🎫 Costo biglietto:"} ${ticketPriceOver65.toFixed(2) + "€ anzichè"} ${ticketPrice + "€"} ${"🎟 - sconto OVER 65 applicato!"}`) 
+    alert (`${"🎫 Costo biglietto:"} ${ticketPriceOver65.toFixed(2) + "€ anzichè"} ${ticketPrice.toFixed(2) + "€"} ${"🎟 - sconto OVER 65 applicato!"}`) 
 } else { 
     alert (`${"🎫 Costo biglietto:"} ${ticketPrice.toFixed(2) + "€"} ${"🎟"}`) 
 }
