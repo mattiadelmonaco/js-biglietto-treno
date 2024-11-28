@@ -18,7 +18,7 @@
 // 4. SE età minore di 18 anni mostra messaggio "🎫 Costo biglietto ((0.21 € * n km) -20%) anzichè (0.21 € * n km) 🎟 - sconto MINORENNE applicato!"
 //      - ALTRIMENTI SE età maggiore o uguale a 65 anni mostra messaggio "🎫 Costo biglietto ((0.21 € * n km) -40%) anzichè (0.21 € * n km) 🎟 - sconto OVER 65 applicato!"
 //      - ALTRIMENTI mostra messaggio "🎫 Costo biglietto (0.21 € * n km) 🎟"
-// 5. Mostra messaggio "🧳 Buon viaggio!!! 🗺"
+// 5. Mostra messaggio "🧳 Buon viaggio!!! 🚀🗺"
 
 
 // - CODES -
@@ -60,3 +60,5 @@ if (passengerAge < 18) {
 }
 
 // 5. Mostra messaggio "🧳 Buon viaggio!!! 🗺"
+
+alert("🧳 Buon viaggio!!! 🚀🗺")
