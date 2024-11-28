@@ -15,3 +15,7 @@
 //          - Mostra messaggio "🎫 Costo biglietto ((0.21 € * n km) -40%) anzichè (0.21 € * n km) 🎟 - sconto OVER 65 applicato!"      
 // 4. Mostra messaggio "🧳 Buon viaggio!!! 🗺"
 
+// 1.
+const distance = Number(prompt ("Inserisci i chilometri che vuoi percorrere!"));
+console.log (typeof distance, distance);
+
